@@ -18,10 +18,8 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <Users className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold text-gray-900">Genealogy Platform</span>
+            <img src="/favicon.svg" alt="ENVISION" className="w-8 h-8" />
+            <span className="text-xl font-bold text-gray-900">ENVISION</span>
           </Link>
 
           {/* Desktop Navigation */}
