@@ -190,7 +190,7 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <img src="/envision-logo.png" alt="ENVISION" className="w-8 h-8 mr-2" onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/favicon.svg' }} />
+                <img src="/envision-e.svg" alt="ENVISION" className="w-8 h-8 mr-2" />
                 <span className="text-xl font-bold">ENVISION</span>
               </div>
               <p className="text-gray-400">

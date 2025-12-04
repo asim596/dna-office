@@ -18,7 +18,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/envision-logo.png" alt="ENVISION" className="w-8 h-8" onError={(e) => { (e.currentTarget as HTMLImageElement).src = '/favicon.svg' }} />
+            <img src="/envision-e.svg" alt="ENVISION" className="w-8 h-8" />
             <span className="text-xl font-bold text-gray-900">ENVISION</span>
           </Link>
 
